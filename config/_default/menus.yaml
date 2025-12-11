@@ -1,0 +1,34 @@
+main:
+  - name: "Home"
+    url: "/"
+    weight: 1
+
+  - name: "About Us"
+    url: "/about"
+    weight: 2
+
+  - name: "Services"
+    url: "/services"
+    weight: 3
+
+buttons:
+  - name: "Contact Us"
+    url: "/contact"
+    weight: 5
+
+footer:
+  - name: "Home"
+    url: "/"
+    weight: 1
+
+  - name: "About Us"
+    url: "/about"
+    weight: 2
+
+  - name: "Services"
+    url: "/services"
+    weight: 3
+
+  - name: "Contact Us"
+    url: "/contact"
+    weight: 5
