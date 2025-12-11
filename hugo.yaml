@@ -31,16 +31,5 @@ taxonomies:
   series: "series"
   tags: "tags"
 
-deployment:
-  targets:
-  - name: production
-    url: s3://consulting.doublewolf.web?region=ap-southeast-2
-    cloudFrontDistributionID: E2PKD87QW8R9JT
-  matchers:
-    - cacheControl: max-age=630720000, no-transform, public
-      gzip: true
-      pattern: "^.+\\.(js|css|svg|ttf|woff|woff2|eot|png|jpg|gif|svg|ttf)$"
-    - gzip: true
-      pattern: "^.+\\.(html|xml|json)$"
       
 
